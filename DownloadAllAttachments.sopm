@@ -15,6 +15,7 @@
         <File Permission="660" Location="Kernel/Language/de_DownloadAllAttachments.pm"/>
         <File Permission="660" Location="Kernel/Modules/AgentTicketDownloadAllAttachments.pm"/>
         <File Permission="660" Location="Kernel/Output/HTML/TicketMenu/DownloadAllAttachments.pm"/>
+        <File Permission="660" Location="Kernel/Autoload/RepoArticle.pm"/>
     </Filelist>
 </otrs_package>
 
