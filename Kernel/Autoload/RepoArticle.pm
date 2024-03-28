@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2012-2021 Znuny GmbH, http://znuny.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -16,7 +16,8 @@
 ## nofilter(TidyAll::Plugin::OTRS::Legal::OTRSAGCopyright)
 ## nofilter(TidyAll::Plugin::OTRS::Znuny4OTRS::Deprecated::CodePolicy)
 ## nofilter(TidyAll::Plugin::OTRS::Znuny4OTRS::Deprecated::ArticleFunctions)
-package Kernel::System::Ticket::Article;    ## no critic
+
+package Kernel::System::Ticket::Article;    ## no critic (Modules::RequireFilenameMatchesPackage)
 
 =head1 NAME
 
@@ -209,7 +210,7 @@ Returns:
 
 =cut
 
-sub ArticleAttachment {    ## no critic;
+sub ArticleAttachment {
     my ( $Self, %Param ) = @_;
 
     my $ArticleBackendObject = $Self->BackendForArticle(
