@@ -1,9 +1,11 @@
 # --
 # OTOBO is a web-based ticketing system for service organisations.
 # --
-# Copyright (C) 2001-2021 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
 # Copyright (C) 2012-2021 Znuny GmbH, http://znuny.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
+# --
+# $origin: otobo - 739b3be62b71991d6571cc1f091e6d96f6bff498 - Kernel/Output/HTML/Templates/Standard/ArticleAttachments.tt
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -13,10 +15,6 @@
 # FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
-# --
-# This software comes with ABSOLUTELY NO WARRANTY. For details, see
-# the enclosed file COPYING for license information (GPL). If you
-# did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 # --
 
 <a class="Attachment" title="[% Translate("Attachments") | html %]" rel="TicketAttachment[% Data.ArticleID | html %]">
