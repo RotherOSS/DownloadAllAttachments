@@ -5,17 +5,16 @@
     <Framework>11.0.x</Framework>
     <ModuleRequired>Archive::Zip</ModuleRequired>
     <Vendor>Rother OSS GmbH</Vendor>
-    <URL>http://otobo.de/</URL>
+    <URL>https://otobo.de/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">Enables download of all ticket or article attachments as a single zip file.</Description>
     <Description Lang="de">Ermöglicht den Download aller Anhänge eines Tickets oder Artikels als Zip-Datei.</Description>
     <Filelist>
-        <File Permission="660" Location="Custom/Kernel/Output/HTML/Templates/Standard/ArticleAttachments.tt"/>
-        <File Permission="660" Location="Kernel/Config/Files/XML/DownloadAllAttachments.xml"/>
-        <File Permission="660" Location="Kernel/Language/de_DownloadAllAttachments.pm"/>
-        <File Permission="660" Location="Kernel/Modules/AgentTicketDownloadAllAttachments.pm"/>
-        <File Permission="660" Location="Kernel/Output/HTML/TicketMenu/DownloadAllAttachments.pm"/>
-        <File Permission="660" Location="Kernel/Autoload/RepoArticle.pm"/>
+        <File Permission="660" Location="Custom/Kernel/Output/HTML/Templates/Standard/ArticleAttachments.tt" />
+        <File Permission="660" Location="Kernel/Config/Files/XML/DownloadAllAttachments.xml" />
+        <File Permission="660" Location="Kernel/Language/de_DownloadAllAttachments.pm" />
+        <File Permission="660" Location="Kernel/Modules/AgentTicketDownloadAllAttachments.pm" />
+        <File Permission="660" Location="Kernel/Output/HTML/TicketMenu/DownloadAllAttachments.pm" />
+        <File Permission="660" Location="Kernel/Autoload/RepoArticle.pm" />
     </Filelist>
 </otobo_package>
-
