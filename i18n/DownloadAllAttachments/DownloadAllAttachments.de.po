@@ -2,13 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DownloadAllAttachments\n"
 "POT-Creation-Date: 2024-05-16 07:20+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-05-17 08:13+0000\n"
+"Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
+"Language-Team: German <http://weblate.otobo.org/projects/opm-packages/"
+"downloadallattachments/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.2\n"
 
 #. Template: ArticleAttachments
 msgid "Download all \\\\(zip\\\\)"
@@ -37,6 +40,8 @@ msgstr ""
 #. SysConfig
 msgid "A precentage value of the minimal translation progress per language, to be usable for documentations."
 msgstr ""
+"Ein prozentualer Wert des minimalen Übersetzungsfortschritts pro Sprache, "
+"der für Dokumentationen verwendet werden kann."
 
 #. SysConfig
 msgid "Access repos via http or https."
@@ -49,10 +54,14 @@ msgstr ""
 #. SysConfig
 msgid "Backend module registration for the config conflict check module."
 msgstr ""
+"Registrierung des Backend-Moduls für das Modul zur Prüfung von "
+"Konfigurationskonflikten."
 
 #. SysConfig
 msgid "Backend module registration for the file conflict check module."
 msgstr ""
+"Registrierung des Backend-Moduls für das Modul zur Prüfung von "
+"Dateikonflikten."
 
 #. SysConfig
 msgid "Backend module registration for the function redefine check module."
@@ -80,7 +89,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Commit limit per page for Branch view screen"
-msgstr "Commit-Limit pro Seite für die Zweigansicht."
+msgstr "Commit-Limit pro Seite für die Zweigansicht"
 
 #. SysConfig
 msgid "Create analysis file"
@@ -108,7 +117,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Definition of GIT clone/push URL Prefix."
-msgstr "Definition des GIT clone/push URL Präfix"
+msgstr "Definition des GIT clone/push URL Präfix."
 
 #. SysConfig
 msgid "Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRelease => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed."
@@ -137,14 +146,17 @@ msgstr "Definition umbenannter OPMS Pakete."
 #. SysConfig
 msgid "Directory, which is used by Git to cache repositories."
 msgstr ""
+"Verzeichnis, das von Git zum Zwischenspeichern von Repositories verwendet "
+"wird."
 
 #. SysConfig
 msgid "Directory, which is used by Git to store temporary data."
-msgstr ""
+msgstr "Verzeichnis, das von Git zum Speichern temporärer Daten verwendet wird."
 
 #. SysConfig
 msgid "Directory, which is used by Git to store working copies."
 msgstr ""
+"Verzeichnis, das von Git zum Speichern von Arbeitskopien verwendet wird."
 
 #. SysConfig
 msgid "Disable online repositories."
@@ -196,11 +208,13 @@ msgstr ""
 
 #. SysConfig
 msgid "GIT Author registration."
-msgstr "Registrierung der GIT Verfasser"
+msgstr "Registrierung der GIT Verfasser."
 
 #. SysConfig
 msgid "Generate HTML comment hooks for the specified blocks so that filters can use them."
 msgstr ""
+"Generiert HTML-Kommentar-Anker für die angegebenen Blöcke, damit Filter "
+"diese nutzen können."
 
 #. SysConfig
 msgid "Generate documentations once per night."
@@ -229,6 +243,8 @@ msgstr "Gruppe, dessen Mitglieder Repository-Admin-Rechte in OPMS haben."
 #. SysConfig
 msgid "Group, whose members will see CI test result information in OPMS screens."
 msgstr ""
+"Gruppe, deren Mitglieder Informationen zu CI-Testergebnissen in OPMS-"
+"Bildschirmen sehen."
 
 #. SysConfig
 msgid "Groups an authenticated user (by user login and password) must be member of to build test packages via the public interface."
@@ -317,6 +333,9 @@ msgstr "Legt den Pfad zums BugzillaAddComment post receive Skript fest."
 #. SysConfig
 msgid "Sets the path for the OTRSCodePolicy  script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron."
 msgstr ""
+"Legt den Pfad für den Speicherort des OTRSCodePolicy-Skripts fest. Es wird "
+"empfohlen, einen separaten Klon des OTRSCodePolicy-Moduls zu haben, der über "
+"Cron aktualisiert wird."
 
 #. SysConfig
 msgid "Sets the path for the OTRSCodePolicy pre receive script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron."
@@ -336,7 +355,7 @@ msgstr "Synchronisiert OPMS Tabellen mit einer entfernten Datenbank."
 
 #. SysConfig
 msgid "The minimum version of the sphinx library."
-msgstr ""
+msgstr "Die Mindestversion der Sphinx-Bibliothek."
 
 #. SysConfig
 msgid "The name of the sphinx theme to be used."
@@ -348,11 +367,11 @@ msgstr ""
 
 #. SysConfig
 msgid "The path to the OTRS logo (relative below the static path)."
-msgstr ""
+msgstr "Der Pfad zum OTRS-Logo (relativ unterhalb des statischen Pfades)."
 
 #. SysConfig
 msgid "The path to the static folder, containing images and css files."
-msgstr ""
+msgstr "Der Pfad zum statischen Ordner, der Bilder und CSS-Dateien enthält."
 
 #. SysConfig
 msgid "The path to the theme folder, containing the sphinx themes."
@@ -377,6 +396,9 @@ msgstr ""
 #. SysConfig
 msgid "This configuration defines the URL to the OTRS CloudService Proxy service. The http or https prefix will be added, depending on selection SysConfig 'Znuny4OTRSRepoType'."
 msgstr ""
+"Diese Konfiguration definiert die URL zum OTRS CloudService Proxy-Dienst. "
+"Das http oder https Präfix wird hinzugefügt, abhängig von der Auswahl der "
+"SysConfig 'Znuny4OTRSRepoType'."
 
 #. SysConfig
 msgid "This configuration registers a Output post-filter to extend package verification."
@@ -393,6 +415,8 @@ msgstr ""
 #. SysConfig
 msgid "Tidy unprocessed release that not passed test pomules checks for a long time."
 msgstr ""
+"Aufgeräumte, unbearbeitete Freigabe, die schon lange nicht mehr von "
+"Testpomulen geprüft wurde."
 
 #. SysConfig
 msgid "Users who have rw permissions in one of these groups are permitted to execute force pushes 'git push --force'."
@@ -401,4 +425,3 @@ msgstr "Benutzer, die rw-Berechtigungen in einer dieser Gruppen haben, dürfen F
 #. SysConfig
 msgid "Users who have rw permissions in one of these groups are permitted to manage projects. Additionally the members have administration permissions to the git management."
 msgstr "Benutzer die über rw-Berechtigungen in einer dieser Gruppen verfügen, können Projekte verwalten. Zusätzlich haben die Mitglieder Administrationsberechtigungen für die Git-Verwaltung."
-
