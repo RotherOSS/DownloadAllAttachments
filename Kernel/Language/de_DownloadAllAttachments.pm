@@ -32,13 +32,13 @@ sub Data {
 
     # SysConfig
     $Self->{Translation}->{'A precentage value of the minimal translation progress per language, to be usable for documentations.'} =
-        '';
+        'Ein prozentualer Wert des minimalen Übersetzungsfortschritts pro Sprache, der für Dokumentationen verwendet werden kann.';
     $Self->{Translation}->{'Access repos via http or https.'} = '';
     $Self->{Translation}->{'Autoloading of Znuny4OTRSRepo extensions.'} = '';
     $Self->{Translation}->{'Backend module registration for the config conflict check module.'} =
-        '';
+        'Registrierung des Backend-Moduls für das Modul zur Prüfung von Konfigurationskonflikten.';
     $Self->{Translation}->{'Backend module registration for the file conflict check module.'} =
-        '';
+        'Registrierung des Backend-Moduls für das Modul zur Prüfung von Dateikonflikten.';
     $Self->{Translation}->{'Backend module registration for the function redefine check module.'} =
         '';
     $Self->{Translation}->{'Backend module registration for the manual set module.'} = '';
@@ -47,7 +47,7 @@ sub Data {
         '';
     $Self->{Translation}->{'Branch View commit limit'} = 'Commit-Limit der Zweigansicht';
     $Self->{Translation}->{'CodePolicy'} = '';
-    $Self->{Translation}->{'Commit limit per page for Branch view screen'} = 'Commit-Limit pro Seite für die Zweigansicht.';
+    $Self->{Translation}->{'Commit limit per page for Branch view screen'} = 'Commit-Limit pro Seite für die Zweigansicht';
     $Self->{Translation}->{'Create analysis file'} = 'Erstelle Analysedatei';
     $Self->{Translation}->{'Creates a analysis file from this ticket and sends to Znuny.'} =
         'Erstellt einen Analysedatei von diesem Ticket und sendet ihn an Znuny.';
@@ -55,7 +55,7 @@ sub Data {
     $Self->{Translation}->{'Define private addon repos.'} = '';
     $Self->{Translation}->{'Defines the filter that processes the HTML templates.'} = '';
     $Self->{Translation}->{'Defines the test module for checking code policy.'} = '';
-    $Self->{Translation}->{'Definition of GIT clone/push URL Prefix.'} = 'Definition des GIT clone/push URL Präfix';
+    $Self->{Translation}->{'Definition of GIT clone/push URL Prefix.'} = 'Definition des GIT clone/push URL Präfix.';
     $Self->{Translation}->{'Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRelease => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
         'Definition eines dynamischen Feldes: Group => Gruppe mit Zugriff zu den dynamischen Feldern; AlwaysVisible => Feld kann entfernt werden (0|1); InformationAreaName => Name des Widgets; InformationAreaSize => Größe und Position des Widgets (Large|Small); Name => Der Name des zu benutzenden dynamischen Feldes; Priority => Sortierung des dynamischen Feldes; State => Status des Feldes (0 = deaktiviert, 1 = aktiviert, 2 = zwingend erforderlich), FilterRelease => Regulärer Ausdruck welcher den Repository Namen beschreibt, der angezeigt werden soll; FilterPackage => Regulärer Ausdruck welcher den Paketnamen beschreibt das angezeigt werden soll; FilterBranch => Regulärer Ausdruck welcher den Namen des Zweigs (Branch) beschreibt, der angezeigt werden soll; FilterRelease => Regulärer Ausdruck den Versions-String eines Releases beschreibt, das angezeigt werden soll.';
     $Self->{Translation}->{'Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed.'} =
@@ -66,9 +66,9 @@ sub Data {
         'Definition von Mappings zwischen öffentlichen Repository Anfragen und internen OPMS Repositories.';
     $Self->{Translation}->{'Definition of package states.'} = 'Definition der Paket Status.';
     $Self->{Translation}->{'Definition of renamed OPMS packages.'} = 'Definition umbenannter OPMS Pakete.';
-    $Self->{Translation}->{'Directory, which is used by Git to cache repositories.'} = '';
-    $Self->{Translation}->{'Directory, which is used by Git to store temporary data.'} = '';
-    $Self->{Translation}->{'Directory, which is used by Git to store working copies.'} = '';
+    $Self->{Translation}->{'Directory, which is used by Git to cache repositories.'} = 'Verzeichnis, das von Git zum Zwischenspeichern von Repositories verwendet wird.';
+    $Self->{Translation}->{'Directory, which is used by Git to store temporary data.'} = 'Verzeichnis, das von Git zum Speichern temporärer Daten verwendet wird.';
+    $Self->{Translation}->{'Directory, which is used by Git to store working copies.'} = 'Verzeichnis, das von Git zum Speichern von Arbeitskopien verwendet wird.';
     $Self->{Translation}->{'Disable online repositories.'} = '';
     $Self->{Translation}->{'Do not log git ssh connection authorization results for these users. Useful for automated stuff.'} =
         'Für diese Benutzer werden keine Authorisierungen von Verbindungen geloggt. Nützlich für automatisierte Anfragen.';
@@ -87,9 +87,9 @@ sub Data {
     $Self->{Translation}->{'Frontend module registration for the PublicPackageVerification object in the public interface.'} =
         'Frontendmodul-Registration für das PublicPackageVerification Objekt im Public-Interface.';
     $Self->{Translation}->{'Frontend module registration for the admin interface.'} = '';
-    $Self->{Translation}->{'GIT Author registration.'} = 'Registrierung der GIT Verfasser';
+    $Self->{Translation}->{'GIT Author registration.'} = 'Registrierung der GIT Verfasser.';
     $Self->{Translation}->{'Generate HTML comment hooks for the specified blocks so that filters can use them.'} =
-        '';
+        'Generiert HTML-Kommentar-Anker für die angegebenen Blöcke, damit Filter diese nutzen können.';
     $Self->{Translation}->{'Generate documentations once per night.'} = '';
     $Self->{Translation}->{'Git'} = 'Git';
     $Self->{Translation}->{'Git Management'} = 'Git-Verwaltung';
@@ -98,7 +98,7 @@ sub Data {
     $Self->{Translation}->{'Group, whose members have repository admin permissions in OPMS.'} =
         'Gruppe, dessen Mitglieder Repository-Admin-Rechte in OPMS haben.';
     $Self->{Translation}->{'Group, whose members will see CI test result information in OPMS screens.'} =
-        '';
+        'Gruppe, deren Mitglieder Informationen zu CI-Testergebnissen in OPMS-Bildschirmen sehen.';
     $Self->{Translation}->{'Groups an authenticated user (by user login and password) must be member of to build test packages via the public interface.'} =
         'Gruppen denen ein authentifizierter Benutzer (durch Benutzernamen und Passwort) angehören muss, um Testpakete über das Public-Interface zu erzeugen.';
     $Self->{Translation}->{'Groups which will be set during git project creation processes while adding OPMS repositories.'} =
@@ -132,20 +132,20 @@ sub Data {
     $Self->{Translation}->{'Sets the path for the BugzillaAddComment post receive script location.'} =
         'Legt den Pfad zums BugzillaAddComment post receive Skript fest.';
     $Self->{Translation}->{'Sets the path for the OTRSCodePolicy  script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron.'} =
-        '';
+        'Legt den Pfad für den Speicherort des OTRSCodePolicy-Skripts fest. Es wird empfohlen, einen separaten Klon des OTRSCodePolicy-Moduls zu haben, der über Cron aktualisiert wird.';
     $Self->{Translation}->{'Sets the path for the OTRSCodePolicy pre receive script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron.'} =
         'Legt den Pfad zum OTRSCodePolicy pre-receive Skript fest. Es wird empfohlen, einen separaten Klon des OTRSCodePolicy-Moduls zu verwenden, der über Cron aktualisiert wird.';
     $Self->{Translation}->{'Show latest commits in git repositories.'} = '';
     $Self->{Translation}->{'Shows a link in the menu to go create a unit test from the current ticket.'} =
         '';
     $Self->{Translation}->{'Synchronize OPMS tables with a remote database.'} = 'Synchronisiert OPMS Tabellen mit einer entfernten Datenbank.';
-    $Self->{Translation}->{'The minimum version of the sphinx library.'} = '';
+    $Self->{Translation}->{'The minimum version of the sphinx library.'} = 'Die Mindestversion der Sphinx-Bibliothek.';
     $Self->{Translation}->{'The name of the sphinx theme to be used.'} = '';
     $Self->{Translation}->{'The path to the OTRS CSS file (relative below the static path).'} =
         '';
-    $Self->{Translation}->{'The path to the OTRS logo (relative below the static path).'} = '';
+    $Self->{Translation}->{'The path to the OTRS logo (relative below the static path).'} = 'Der Pfad zum OTRS-Logo (relativ unterhalb des statischen Pfades).';
     $Self->{Translation}->{'The path to the static folder, containing images and css files.'} =
-        '';
+        'Der Pfad zum statischen Ordner, der Bilder und CSS-Dateien enthält.';
     $Self->{Translation}->{'The path to the theme folder, containing the sphinx themes.'} = '';
     $Self->{Translation}->{'This configuration defines all possible screens to enable or disable default columns.'} =
         'Diese Konfiguration definiert alle möglichen Oberflächen in denen dynamische Felder als DefaultColumns aktiviert/deaktiviert werden können.';
@@ -156,7 +156,7 @@ sub Data {
     $Self->{Translation}->{'This configuration defines if the OTRS package verification should be active or disabled. If disabled all packages are shown as verified. It\'s still recommended to use only verified packages.'} =
         '';
     $Self->{Translation}->{'This configuration defines the URL to the OTRS CloudService Proxy service. The http or https prefix will be added, depending on selection SysConfig \'Znuny4OTRSRepoType\'.'} =
-        '';
+        'Diese Konfiguration definiert die URL zum OTRS CloudService Proxy-Dienst. Das http oder https Präfix wird hinzugefügt, abhängig von der Auswahl der SysConfig \'Znuny4OTRSRepoType\'.';
     $Self->{Translation}->{'This configuration registers a Output post-filter to extend package verification.'} =
         '';
     $Self->{Translation}->{'This configuration registers an OutputFilter module that removes OTRS Business Solution TM advertisements.'} =
@@ -164,7 +164,7 @@ sub Data {
     $Self->{Translation}->{'This configuration registers an output filter to hide online repository selection in package manager.'} =
         '';
     $Self->{Translation}->{'Tidy unprocessed release that not passed test pomules checks for a long time.'} =
-        '';
+        'Aufgeräumte, unbearbeitete Freigabe, die schon lange nicht mehr von Testpomulen geprüft wurde.';
     $Self->{Translation}->{'Users who have rw permissions in one of these groups are permitted to execute force pushes \'git push --force\'.'} =
         'Benutzer, die rw-Berechtigungen in einer dieser Gruppen haben, dürfen Force-Pushes \'git push --force\' ausführen.';
     $Self->{Translation}->{'Users who have rw permissions in one of these groups are permitted to manage projects. Additionally the members have administration permissions to the git management.'} =

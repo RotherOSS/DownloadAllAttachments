@@ -4,8 +4,7 @@ msgstr ""
 "POT-Creation-Date: 2024-05-16 07:20+0000\n"
 "PO-Revision-Date: 2024-05-17 08:13+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
-"Language-Team: German <http://weblate.otobo.org/projects/opm-packages/"
-"downloadallattachments/de/>\n"
+"Language-Team: German <http://weblate.otobo.org/projects/opm-packages/downloadallattachments/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,9 +38,7 @@ msgstr ""
 
 #. SysConfig
 msgid "A precentage value of the minimal translation progress per language, to be usable for documentations."
-msgstr ""
-"Ein prozentualer Wert des minimalen Übersetzungsfortschritts pro Sprache, "
-"der für Dokumentationen verwendet werden kann."
+msgstr "Ein prozentualer Wert des minimalen Übersetzungsfortschritts pro Sprache, der für Dokumentationen verwendet werden kann."
 
 #. SysConfig
 msgid "Access repos via http or https."
@@ -53,15 +50,11 @@ msgstr ""
 
 #. SysConfig
 msgid "Backend module registration for the config conflict check module."
-msgstr ""
-"Registrierung des Backend-Moduls für das Modul zur Prüfung von "
-"Konfigurationskonflikten."
+msgstr "Registrierung des Backend-Moduls für das Modul zur Prüfung von Konfigurationskonflikten."
 
 #. SysConfig
 msgid "Backend module registration for the file conflict check module."
-msgstr ""
-"Registrierung des Backend-Moduls für das Modul zur Prüfung von "
-"Dateikonflikten."
+msgstr "Registrierung des Backend-Moduls für das Modul zur Prüfung von Dateikonflikten."
 
 #. SysConfig
 msgid "Backend module registration for the function redefine check module."
@@ -145,9 +138,7 @@ msgstr "Definition umbenannter OPMS Pakete."
 
 #. SysConfig
 msgid "Directory, which is used by Git to cache repositories."
-msgstr ""
-"Verzeichnis, das von Git zum Zwischenspeichern von Repositories verwendet "
-"wird."
+msgstr "Verzeichnis, das von Git zum Zwischenspeichern von Repositories verwendet wird."
 
 #. SysConfig
 msgid "Directory, which is used by Git to store temporary data."
@@ -155,8 +146,7 @@ msgstr "Verzeichnis, das von Git zum Speichern temporärer Daten verwendet wird.
 
 #. SysConfig
 msgid "Directory, which is used by Git to store working copies."
-msgstr ""
-"Verzeichnis, das von Git zum Speichern von Arbeitskopien verwendet wird."
+msgstr "Verzeichnis, das von Git zum Speichern von Arbeitskopien verwendet wird."
 
 #. SysConfig
 msgid "Disable online repositories."
@@ -212,9 +202,7 @@ msgstr "Registrierung der GIT Verfasser."
 
 #. SysConfig
 msgid "Generate HTML comment hooks for the specified blocks so that filters can use them."
-msgstr ""
-"Generiert HTML-Kommentar-Anker für die angegebenen Blöcke, damit Filter "
-"diese nutzen können."
+msgstr "Generiert HTML-Kommentar-Anker für die angegebenen Blöcke, damit Filter diese nutzen können."
 
 #. SysConfig
 msgid "Generate documentations once per night."
@@ -242,9 +230,7 @@ msgstr "Gruppe, dessen Mitglieder Repository-Admin-Rechte in OPMS haben."
 
 #. SysConfig
 msgid "Group, whose members will see CI test result information in OPMS screens."
-msgstr ""
-"Gruppe, deren Mitglieder Informationen zu CI-Testergebnissen in OPMS-"
-"Bildschirmen sehen."
+msgstr "Gruppe, deren Mitglieder Informationen zu CI-Testergebnissen in OPMS-Bildschirmen sehen."
 
 #. SysConfig
 msgid "Groups an authenticated user (by user login and password) must be member of to build test packages via the public interface."
@@ -332,10 +318,7 @@ msgstr "Legt den Pfad zums BugzillaAddComment post receive Skript fest."
 
 #. SysConfig
 msgid "Sets the path for the OTRSCodePolicy  script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron."
-msgstr ""
-"Legt den Pfad für den Speicherort des OTRSCodePolicy-Skripts fest. Es wird "
-"empfohlen, einen separaten Klon des OTRSCodePolicy-Moduls zu haben, der über "
-"Cron aktualisiert wird."
+msgstr "Legt den Pfad für den Speicherort des OTRSCodePolicy-Skripts fest. Es wird empfohlen, einen separaten Klon des OTRSCodePolicy-Moduls zu haben, der über Cron aktualisiert wird."
 
 #. SysConfig
 msgid "Sets the path for the OTRSCodePolicy pre receive script location. It is recommended to have a separate clone of the OTRSCodePolicy module that is updated via cron."
@@ -395,10 +378,7 @@ msgstr ""
 
 #. SysConfig
 msgid "This configuration defines the URL to the OTRS CloudService Proxy service. The http or https prefix will be added, depending on selection SysConfig 'Znuny4OTRSRepoType'."
-msgstr ""
-"Diese Konfiguration definiert die URL zum OTRS CloudService Proxy-Dienst. "
-"Das http oder https Präfix wird hinzugefügt, abhängig von der Auswahl der "
-"SysConfig 'Znuny4OTRSRepoType'."
+msgstr "Diese Konfiguration definiert die URL zum OTRS CloudService Proxy-Dienst. Das http oder https Präfix wird hinzugefügt, abhängig von der Auswahl der SysConfig 'Znuny4OTRSRepoType'."
 
 #. SysConfig
 msgid "This configuration registers a Output post-filter to extend package verification."
@@ -414,9 +394,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Tidy unprocessed release that not passed test pomules checks for a long time."
-msgstr ""
-"Aufgeräumte, unbearbeitete Freigabe, die schon lange nicht mehr von "
-"Testpomulen geprüft wurde."
+msgstr "Aufgeräumte, unbearbeitete Freigabe, die schon lange nicht mehr von Testpomulen geprüft wurde."
 
 #. SysConfig
 msgid "Users who have rw permissions in one of these groups are permitted to execute force pushes 'git push --force'."
@@ -425,3 +403,4 @@ msgstr "Benutzer, die rw-Berechtigungen in einer dieser Gruppen haben, dürfen F
 #. SysConfig
 msgid "Users who have rw permissions in one of these groups are permitted to manage projects. Additionally the members have administration permissions to the git management."
 msgstr "Benutzer die über rw-Berechtigungen in einer dieser Gruppen verfügen, können Projekte verwalten. Zusätzlich haben die Mitglieder Administrationsberechtigungen für die Git-Verwaltung."
+
