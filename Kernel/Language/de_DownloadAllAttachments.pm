@@ -33,16 +33,16 @@ sub Data {
     # SysConfig
     $Self->{Translation}->{'A precentage value of the minimal translation progress per language, to be usable for documentations.'} =
         'Ein prozentualer Wert des minimalen Übersetzungsfortschritts pro Sprache, der für Dokumentationen verwendet werden kann.';
-    $Self->{Translation}->{'Access repos via http or https.'} = '';
-    $Self->{Translation}->{'Autoloading of Znuny4OTRSRepo extensions.'} = '';
+    $Self->{Translation}->{'Access repos via http or https.'} = 'Zugriff auf die Repositories über http oder https.';
+    $Self->{Translation}->{'Autoloading of Znuny4OTRSRepo extensions.'} = 'Autoloading von Znuny4OTRSRepo-Erweiterungen.';
     $Self->{Translation}->{'Backend module registration for the config conflict check module.'} =
         'Registrierung des Backend-Moduls für das Modul zur Prüfung von Konfigurationskonflikten.';
     $Self->{Translation}->{'Backend module registration for the file conflict check module.'} =
         'Registrierung des Backend-Moduls für das Modul zur Prüfung von Dateikonflikten.';
     $Self->{Translation}->{'Backend module registration for the function redefine check module.'} =
-        '';
-    $Self->{Translation}->{'Backend module registration for the manual set module.'} = '';
-    $Self->{Translation}->{'Block hooks to be created for BS ad removal.'} = '';
+        'Registrierung des Backend-Moduls für die Funktion "redefine check module".';
+    $Self->{Translation}->{'Backend module registration for the manual set module.'} = 'Backend-Modulregistrierung für das Modul "manual set module".';
+    $Self->{Translation}->{'Block hooks to be created for BS ad removal.'} = 'Block hooks für die Entfernung von BS ad erstellen.';
     $Self->{Translation}->{'Block hooks to be created for package manager output filter.'} =
         '';
     $Self->{Translation}->{'Branch View commit limit'} = 'Commit-Limit der Zweigansicht';
