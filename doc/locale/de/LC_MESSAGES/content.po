@@ -4,18 +4,21 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 09:20+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2024-06-24 11:13+0000\n"
+"Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
+"Language-Team: German <http://weblate.otobo.org/projects/"
+"manual-downloadallattachments/master/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.2\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../content/index.rst:16
@@ -24,27 +27,31 @@ msgstr ""
 
 #: ../../content/index.rst:19
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: ../../content/index.rst:20
 msgid ""
 "Enables download of all ticket or article attachments as a single zip "
 "file."
 msgstr ""
+"Ermöglicht den Download aller Ticket- oder Artikelanhänge als eine einzige "
+"Zip-Datei."
 
 #: ../../content/index.rst:23
 msgid "Functionality"
-msgstr ""
+msgstr "Funktionsweise"
 
 #: ../../content/index.rst:26
 msgid "Download multiple attachments as single zip file"
-msgstr ""
+msgstr "Mehrere Anhänge als einzelne Zip-Datei herunterladen"
 
 #: ../../content/index.rst:28
 msgid ""
 "This package extends OTOBO with the functionality to download all "
 "attachments of a ticket or article as a single zip file."
 msgstr ""
+"Dieses Paket erweitert OTOBO um die Funktionalität, alle Anhänge eines "
+"Tickets oder Artikels als eine einzige Zip-Datei herunterzuladen."
 
 #: ../../content/index.rst:30
 msgid ""
@@ -52,6 +59,9 @@ msgid ""
 "attachments' in the ticket menu of the ticket zoom view. The filename "
 "will have the following pattern: 'Attachments Ticket *TicketNummer*.zip'."
 msgstr ""
+"Ticketanhänge können über den neuen Link \"Ticketanhänge herunterladen\" im "
+"Ticketmenü der Ticket-Zoomansicht heruntergeladen werden. Der Dateiname hat "
+"das folgende Muster: \"Anhänge Ticket *TicketNummer*.zip\"."
 
 #: ../../content/index.rst:32
 msgid ""
@@ -60,14 +70,18 @@ msgid ""
 "article attachments box. The filename will have the following pattern: "
 "'Attachments Ticket *TicketNummer* ArticleID *ArticleID*.zip'."
 msgstr ""
+"Um alle Anhänge eines Artikels als eine einzige Zip-Datei herunterzuladen, "
+"wurde der neue Link 'Download all (zip)' oben in der Liste der Anhänge im "
+"Feld für Artikelanhänge hinzugefügt. Der Dateiname hat das folgende Muster: "
+"\"Anhänge Ticket *TicketNummer* ArtikelID *ArtikelID*.zip\"."
 
 #: ../../content/index.rst:35
 msgid "System requirements"
-msgstr ""
+msgstr "Systemanforderungen"
 
 #: ../../content/index.rst:39
 msgid "OTOBO 11.0.x"
-msgstr ""
+msgstr "OTOBO 11.0.x"
 
 #: ../../content/index.rst:43
 msgid "\\-"
@@ -103,23 +117,22 @@ msgstr ""
 
 #: ../../content/index.rst:81
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 #: ../../content/index.rst:85
 msgid "Rother OSS GmbH"
-msgstr ""
+msgstr "Rother OSS GmbH"
 
 #: ../../content/index.rst:86
 msgid "Email: hello@otobo.de"
-msgstr ""
+msgstr "E-Mail: hello@otobo.de"
 
 #: ../../content/index.rst:87
 msgid "Web: https://otobo.de"
-msgstr ""
+msgstr "Web: https://otobo.de"
 
 #: ../../content/index.rst:91
 msgid ""
 "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
 "datestamp|"
 msgstr ""
-
