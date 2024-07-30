@@ -32,6 +32,8 @@ sub Data {
 
     # SysConfig
     $Self->{Translation}->{'Autoloading of DownloadAttachment extensions.'} = '';
+    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
     $Self->{Translation}->{'This configuration registers a link in the ticket menu to download all ticket attachments.'} =
         '';
     $Self->{Translation}->{'This configuration registers a link in the ticket menu to the ticket overviews of the agent interface to download all ticket attachments.'} =
