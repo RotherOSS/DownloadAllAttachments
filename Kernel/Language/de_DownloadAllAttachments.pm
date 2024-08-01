@@ -32,7 +32,11 @@ sub Data {
 
     # SysConfig
     $Self->{Translation}->{'Autoloading of DownloadAttachment extensions.'} = '';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'This configuration registers a link in the ticket menu to download all ticket attachments.'} =
         '';
