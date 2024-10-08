@@ -36,6 +36,8 @@ sub Data {
         '';
     $Self->{Translation}->{'This configuration registers a link in the ticket menu to the ticket overviews of the agent interface to download all ticket attachments.'} =
         '';
+    $Self->{Translation}->{'This option will deny the access to customer company tickets, which are not created by the customer user. Please also deactivate "CustomerFrontend::Navigation###CustomerTicketOverview###002-Ticket" so that the button is no longer visible.'} =
+        '';
 
 
     push @{ $Self->{JavaScriptStrings} // [] }, (

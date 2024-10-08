@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DownloadAllAttachments\n"
-"POT-Creation-Date: 2024-08-02 01:53+0000\n"
+"POT-Creation-Date: 2024-10-08 07:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,5 +32,9 @@ msgstr ""
 
 #. SysConfig
 msgid "This configuration registers a link in the ticket menu to the ticket overviews of the agent interface to download all ticket attachments."
+msgstr ""
+
+#. SysConfig
+msgid "This option will deny the access to customer company tickets, which are not created by the customer user. Please also deactivate \"CustomerFrontend::Navigation###CustomerTicketOverview###002-Ticket\" so that the button is no longer visible."
 msgstr ""
 
